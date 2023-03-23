@@ -19,7 +19,7 @@ class StartScene extends Phaser.Scene {
     this.load.image("playButton", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/Button CTA.png");
     this.load.image("trackGround", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/ground.png");
 
-    this.load.spritesheet("playButtonAnim", "assets/StartSceneAssets/playButtonAnim.png", { frameWidth: 200, frameHeight: 56 });
+    this.load.spritesheet("playButtonAnim", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/playButtonAnim.png", { frameWidth: 200, frameHeight: 56 });
   }
 
   startSceneAssetsLoadNew() {
