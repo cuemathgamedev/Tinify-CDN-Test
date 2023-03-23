@@ -6,7 +6,7 @@ class StartScene extends Phaser.Scene {
   }
 
   preload() {
-    this.startSceneAssetsLoadNew();
+    this.startSceneAssetsLoad();
   }
 
   startSceneAssetsLoad() {
