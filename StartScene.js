@@ -10,14 +10,14 @@ class StartScene extends Phaser.Scene {
   }
 
   startSceneAssetsLoad() {
-    this.load.image("mainBG", "assets/StartSceneAssets/BG.png");
-    this.load.image("gameName", "assets/StartSceneAssets/gamename.png");
-    this.load.image("cartWheel", "assets/StartSceneAssets/cartwheel.png");
-    this.load.image("parachute", "assets/StartSceneAssets/parachute.png");
-    this.load.image("cloudLeft", "assets/StartSceneAssets/cloudLefthdpi.png");
-    this.load.image("cloudRight", "assets/StartSceneAssets/cloudRight.png");
-    this.load.image("playButton", "assets/StartSceneAssets/Button CTA.png");
-    this.load.image("trackGround", "assets/StartSceneAssets/ground.png");
+    this.load.image("mainBG", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/BG.png");
+    this.load.image("gameName", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/gamename.png");
+    this.load.image("cartWheel", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/cartwheel.png");
+    this.load.image("parachute", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/parachute.png");
+    this.load.image("cloudLeft", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/cloudLefthdpi.png");
+    this.load.image("cloudRight", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/cloudRight.png");
+    this.load.image("playButton", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/Button CTA.png");
+    this.load.image("trackGround", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/ground.png");
 
     this.load.spritesheet("playButtonAnim", "assets/StartSceneAssets/playButtonAnim.png", { frameWidth: 200, frameHeight: 56 });
   }
