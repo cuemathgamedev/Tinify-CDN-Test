@@ -10,16 +10,16 @@ class StartScene extends Phaser.Scene {
   }
 
   startSceneAssetsLoad() {
-    this.load.image("mainBG", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/BG.png");
-    this.load.image("gameName", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/gamename.png");
-    this.load.image("cartWheel", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/cartwheel.png");
-    this.load.image("parachute", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/parachute.png");
-    this.load.image("cloudLeft", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/cloudLefthdpi.png");
-    this.load.image("cloudRight", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/cloudRight.png");
-    this.load.image("playButton", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/Button CTA.png");
-    this.load.image("trackGround", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/ground.png");
+    this.load.image("mainBG", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/BG.png");
+    this.load.image("gameName", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/gamename.png");
+    this.load.image("cartWheel", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/cartwheel.png");
+    this.load.image("parachute", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/parachute.png");
+    this.load.image("cloudLeft", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/cloudLefthdpi.png");
+    this.load.image("cloudRight", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/cloudRight.png");
+    this.load.image("playButton", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/Button CTA.png");
+    this.load.image("trackGround", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/ground.png");
 
-    this.load.spritesheet("playButtonAnim", "https://qw268b3q.tinifycdn.com/assets/StartSceneAssets/playButtonAnim.png", { frameWidth: 200, frameHeight: 56 });
+    this.load.spritesheet("playButtonAnim", "https://gqgp0qkg.tinifycdn.com/Shoot Them All/assets/StartSceneAssets/playButtonAnim.png", { frameWidth: 200, frameHeight: 56 });
   }
 
   startSceneAssetsLoadNew() {
